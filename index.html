@@ -34,17 +34,20 @@
 </head>
 <body class="font-manrope">
     <header class="container mx-auto">
-        <div class="hero ">
-            <div class="hero-content flex-col lg:flex-row">
+        <div class="my-20">
+            <div class="flex justify-between items-center flex-col lg:flex-row">
               <div>
                 <h1 class="text-7xl font-extrabold">It,s good<br>
                  tea time at the<br>
                  Tea-House</h1>
                 <p class="py-6">Tea cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.My life tea is very important.</p>
-                <button class="btn btn-primary">Explore More</button>
+                <button class="btn bg-gradient-to-r from-orange-500 to-red-500 text-white">
+                  Explore More
+                  <i class="fa-solid fa-location-arrow"></i>
+                </button>
               </div>
               <div>
-                <img src="images/banner.png" class="max-w-sm" />
+                <img src="images/banner.png" class="" />
                 <!--Ratings badge -->
                 <div class="-mt-16 flex gap-4 items-center drop-shadow-lg bg-white p-5 w-60">
                   <i class="fa-solid fa-star text-3xl text-amber-400"></i>
@@ -144,7 +147,7 @@
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis sunt repellendus magni aliquid at accusantium recusandae adipisci totam modi velit delectus dolorem libero expedita saepe minima soluta commodi, temporibus impedit. Sit, deleniti
     quae sed reiciendis odit blanditiis culpa dolor nemo.
   </p>
-  <button class="btn btn-primary">Show All</button>
+  <button class="btn bg-gradient-to-r from-orange-500 to-red-500 text-white">Show All</button>
 </div>
   </div>
 <!-- review container -->
@@ -194,10 +197,55 @@
 
  </section>
     </main>
-    <footer>
-
-    </footer>
-
+    <!-- footer section -->
+    <footer class="px-4 lg:px-48 py-10 bg-orange-200 text-base-content">
+      <div class="flex justify-between my-24">
+        <img src="images/cup.png" alt="">
+        <p>
+          <span>Ready To Get started,</span>
+          <button class="btn bg-gradient-to-r from-orange-500 to-red-500 text-white">Get started</button>
+        </p>
+      </div>
+      <div class="footer">
+      <nav>
+        <h6 class="footer-title">Services</h6> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav>
+        <h6 class="footer-title">Company</h6> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav>
+        <h6 class="footer-title">Legal</h6> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav> 
+      <form>
+        <h6 class="footer-title">Newsletter</h6> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="username@site.com" class="py-4 bg-transparent border-b-2 border-black outline-none" /> 
+            <button class="btn bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full top-0 right-0">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </fieldset>
+      </form>
+      </div>
+    <aside class="mt-10 text-center">
+        <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+      </aside>
+ </footer>
     
 </body>
 </html>
